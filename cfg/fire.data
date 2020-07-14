@@ -1,0 +1,6 @@
+classes= 1
+train  = /home/ailab/dataset/hlw_fire_data/VOC2020/2020_train.txt
+valid  = /home/ailab/dataset/hlw_fire_data/VOC2020/2020_train.txt
+names = data/fire.names
+backup = /home/gengyanlei/Python_work/darknet_yolov4/backup_fire/
+eval=coco
