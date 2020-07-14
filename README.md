@@ -25,4 +25,7 @@
 |----|
 
 ## Cite
-fire-demo-dataset: http://signal.ee.bilkent.edu.tr/VisiFire/Demo/SampleClips.html
+* fire-demo-dataset: http://signal.ee.bilkent.edu.tr/VisiFire/Demo/SampleClips.html
+
+## other
+* [building-segmentation-dataset](https://github.com/gengyanlei/build_segmentation_dataset)
