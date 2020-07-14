@@ -128,8 +128,8 @@ if __name__ == '__main__':
                     weightPath=r'./backup_fire/yolov4-fire_best.weights',
                     namesPath=r'./cfg/fire.names')
 
-    # image = cv2.imread(r'/home/gengyanlei/Datasets/image/000000.jpg', -1)
-    # image = cv2.imread(r'/home/gengyanlei/Datasets/20200714085948.jpg', -1)
+    # image = cv2.imread(r'/home/Datasets/image/000000.jpg', -1)
+    # image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)
     # detect.predict_image(image, save_path='./pred.jpg')
 
     ''' 读取视频，保存视频 '''
