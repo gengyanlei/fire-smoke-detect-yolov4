@@ -6,17 +6,43 @@
 * [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
 * fire-dataset (with xml annotations) download: [BaiDuYunPan](https://pan.baidu.com/s/1QlUTC8QW4wj0-Rwfx3fIPA) 提取码->(9mr7)
 * fire-yolov4-weights download: [BaiDuYunPan](https://pan.baidu.com/s/14g0SkV5vR8OhnDOCTW6r9A) 提取码->(w3ip)
+* yolov4.conv.137 -> GoogleDriver download: [yolov4.conv.137 ](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)
 
-## How to use this code?
+## How to use dataset?
+* We annotate the fire-detection-dataset as Pascal VOC format:
+    ```
+    --VOC2020
+        --Annotations
+        --ImageSets(Main)
+        --JPEGImages
+    ```
+* If you want to convert VOC to COCO format:
+    ```
+    Call darknet-yolov4's scripts voc_label.py
+    ```
+
+## How to use this code (test)?
 0. installed darknet-yolov4, and put darknet_API.py into ./darknet
 1. put cfg into ./darknet
 2. download fire-yolov4's weight, and put it in backup_fire folder
 3. Call the darknet_API main function:
-    * `from darknet_API import Detect`
-    * `detect = Detect(metaPath=r'./cfg/fire.data', configPath=r'./cfg/yolov4-fire.cfg', weightPath=r'./backup_fire/yolov4-fire_best.weights', namesPath=r'./cfg/fire.names')`
-    * `image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)`
-    * `draw_img = detect.predict_image(image, save_path='./pred.jpg')`
+    ```
+    from darknet_API import Detect
+    detect = Detect(metaPath=r'./cfg/fire.data', configPath=r'./cfg/yolov4-fire.cfg',\
+                    weightPath=r'./backup_fire/yolov4-fire_best.weights',\
+                    namesPath=r'./cfg/fire.names')
+    image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)
+    draw_img = detect.predict_image(image, save_path='./pred.jpg')
+    ```
 * Note: This project should be placed in the ./darknet folder
+
+## How to train yolov4 in darknet (train)?
+0. Convert VOC format data to COCO format data
+1. Configure file information such as cfg
+2. Call the darknet command:
+    ```
+    ./darknet detector train cfg/fire.data cfg/yolov4-fire.cfg yolov4.conv.137 -gpus 0 -map -dont_show
+    ```
 
 ## demo
 * ./result: fire-detect demos
