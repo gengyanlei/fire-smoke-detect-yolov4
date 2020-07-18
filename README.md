@@ -61,7 +61,7 @@
 ## Reputation:
 
 * This data set contains 2 parts:
-* (1) Images crawled by yourself, marked by yourself
+* (1) Images crawled by myself, marked by myself
 * (2) The data that others open source, some have annotations, some have no annotations (I re-annotate it)
 
     
