@@ -1,10 +1,11 @@
-# fire-detect-yolov4 and [fire-detect-dataset](https://pan.baidu.com/s/1QlUTC8QW4wj0-Rwfx3fIPA)
+# fire-detect-yolov4 and [fire-detect-dataset]()
 
 * author is leilei(CSU)
 
 ## Some details
 * [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
-* fire-dataset (with xml annotations) download: [BaiDuYunPan](https://pan.baidu.com/s/1QlUTC8QW4wj0-Rwfx3fIPA) 提取码->(9mr7)
+* latest-fire-dataset (with xml annotations) download: [BaiDuYunPan](https://pan.baidu.com/s/1Wo1ANWTKuoYb7EmIs4zEUQ) 提取码->(zhwn)
+* ~~fire-dataset (with xml annotations) download: [BaiDuYunPan](https://pan.baidu.com/s/1QlUTC8QW4wj0-Rwfx3fIPA) 提取码->(9mr7)~~
 * fire-yolov4-weights download: [BaiDuYunPan](https://pan.baidu.com/s/14g0SkV5vR8OhnDOCTW6r9A) 提取码->(w3ip)
 * yolov4.conv.137 -> GoogleDriver download: [yolov4.conv.137 ](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)
 
@@ -51,7 +52,18 @@
 |----|
 
 ## Cite
+* train_data1: https://blog.csdn.net/LEILEI18A/article/details/107334474
+* train_data2: https://bitbucket.org/gbdi/bowfire-dataset/downloads/
+* train_data3: https://github.com/OlafenwaMoses/FireNET/releases/download/v1.0/fire-dataset.zip
+* 
 * fire-demo-dataset: http://signal.ee.bilkent.edu.tr/VisiFire/Demo/SampleClips.html
 
+## Reputation:
+
+* This data set contains 2 parts:
+* (1) Images crawled by yourself, marked by yourself
+* (2) The data that others open source, some have annotations, some have no annotations (I re-annotate it)
+
+    
 ## other
 * [building-segmentation-dataset](https://github.com/gengyanlei/build_segmentation_dataset)
