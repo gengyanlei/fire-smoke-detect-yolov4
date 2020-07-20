@@ -1,6 +1,7 @@
 # fire-detect-yolov4 and [fire-detect-dataset](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg)
 
 * author is leilei(CSU)
+* fire-detection qq群: 980489677
 
 ## Some details
 * [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
