@@ -52,10 +52,11 @@
 |----|
 
 ## Cite
-* train_data contain 1-2-3:
+* train_data contain 1-2-3-4:
 * train_data1: https://blog.csdn.net/LEILEI18A/article/details/107334474
 * train_data2: https://bitbucket.org/gbdi/bowfire-dataset/downloads/
 * train_data3: https://github.com/OlafenwaMoses/FireNET/releases/download/v1.0/fire-dataset.zip
+* train_data4: https://github.com/cair/Fire-Detection-Image-Dataset/blob/master/Fire%20images.rar
 * 
 * fire-demo-dataset: http://signal.ee.bilkent.edu.tr/VisiFire/Demo/SampleClips.html
 
