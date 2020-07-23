@@ -22,6 +22,10 @@
     ```
     Call darknet-yolov4's scripts voc_label.py
     ```
+* Fire scene:
+    ```
+    vehicle-fire、grassland-fire、forest-fire、building-fire、Big and small fire、Day and night fire;
+    ```
 
 ## How to use this code (test)?
 0. installed darknet-yolov4, and put darknet_API.py into ./darknet
