@@ -14,9 +14,9 @@
 * We annotate the fire-detection-dataset as Pascal VOC format:
     ```
     --VOC2020
-        --Annotations
+        --Annotations (xml_num: 2059)
         --ImageSets(Main)
-        --JPEGImages
+        --JPEGImages (image_num: 2059)
     ```
 * If you want to convert VOC to COCO format:
     ```
