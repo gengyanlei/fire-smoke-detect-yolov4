@@ -17,6 +17,7 @@
         --Annotations (xml_num: 2059)
         --ImageSets(Main)
         --JPEGImages (image_num: 2059)
+        --label_name: fire
     ```
 * If you want to convert VOC to COCO format:
     ```
@@ -40,8 +41,11 @@
     image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)
     draw_img = detect.predict_image(image, save_path='./pred.jpg')
     ```
-* Note: This project should be placed in the ./darknet folder
-
+* Note: 
+    * This project should be placed in the ./darknet folder;
+    * Fire generally coexists with smoke, but we only marked fire;
+    * In addition, it is easy to confuse the negative sample of the fire and the light;
+    
 ## How to train yolov4 in darknet (train)?
 0. Convert VOC format data to COCO format data
 1. Configure file information such as cfg
