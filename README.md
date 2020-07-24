@@ -17,6 +17,7 @@
         --Annotations (xml_num: 2059)
         --ImageSets(Main)
         --JPEGImages (image_num: 2059)
+        
         --label_name: fire
     ```
 * If you want to convert VOC to COCO format:
