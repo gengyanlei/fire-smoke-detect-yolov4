@@ -57,10 +57,12 @@
 
 ## demo
 * ./result: fire-detect demos
+
 |![fire-detect-demo](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/result/result_demo.jpg?raw=true)|
 |----|
 
 * ./xml_lab: fire-detection image annotations
+
 |![fire-detect-annotation](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/xml_lab/annotation.jpg)|
 |----|
 
