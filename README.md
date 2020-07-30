@@ -61,7 +61,7 @@
 |----|
 
 * ./xml_lab: fire-detection image annotations
-|![fire-detect-annotation]()|
+|![fire-detect-annotation](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/xml_lab/annotation.jpg)|
 |----|
 
 ## Cite
