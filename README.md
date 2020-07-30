@@ -20,7 +20,7 @@
         
         --label_name: fire
     ```
-* If you want to convert VOC to COCO format:
+* If you want to convert VOC to YOLO format:
     ```
     Call darknet-yolov4's scripts voc_label.py
     ```
@@ -48,7 +48,7 @@
     * In addition, it is easy to confuse the negative sample of the fire and the light;
     
 ## How to train yolov4 in darknet (train)?
-0. Convert VOC format data to COCO format data
+0. Convert VOC format data to YOLO format data
 1. Configure file information such as cfg
 2. Call the darknet command:
     ```
@@ -57,8 +57,11 @@
 
 ## demo
 * ./result: fire-detect demos
-
 |![fire-detect-demo](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/result/result_demo.jpg?raw=true)|
+|----|
+
+* ./xml_lab: fire-detection image annotations
+|![fire-detect-annotation]()|
 |----|
 
 ## Cite
