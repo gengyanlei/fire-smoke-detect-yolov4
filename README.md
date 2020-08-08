@@ -28,6 +28,11 @@
     ```
     vehicle-fire、grassland-fire、forest-fire、building-fire、Big and small fire、Day and night fire;
     ```
+* Crawl fire-smoke images
+    ```
+    * crawl baidu images: test_baidu.py
+    * crawl google images: test_google.py
+    ```
 
 ## How to use this code (test)?
 0. installed darknet-yolov4, and put darknet_API.py into ./darknet
