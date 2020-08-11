@@ -20,7 +20,7 @@ class Detect:
         # 设置gpu
         darknet.set_gpu(gpu_id)
         # 网络
-        self.netMain = darknet.load_net_custom(configPath.encode("ascii"), weightPath.encode("ascii"), 0, 1)
+        self.netMain = darknet.load_net_custom(configPath.encode("ascii"), weightPath.encode("ascii"), 0, 1) # batch=1
         # 各种参数
         self.metaMain = darknet.load_meta(metaPath.encode("ascii"))
         # 读取标签类别名称列表
