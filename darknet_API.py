@@ -9,13 +9,16 @@ import random
 import darknet
 
 class Detect:
-    def __init__(self, metaPath, configPath, weightPath, namesPath):
+    def __init__(self, metaPath, configPath, weightPath, namesPath, gpu_id=2):
         '''
         :param metaPath:   ***.data 存储各种参数
         :param configPath: ***.cfg  网络结构文件
         :param weightPath: ***.weights yolo的权重
         :param namesPath:  ***.data中的names路径，这里是便于读取使用
+        :param gpu_id:     gpu id
         '''
+        # 设置gpu
+        darknet.set_gpu(gpu_id)
         # 网络
         self.netMain = darknet.load_net_custom(configPath.encode("ascii"), weightPath.encode("ascii"), 0, 1)
         # 各种参数
@@ -96,17 +99,23 @@ class Detect:
         thickness = round(0.001 * max(img.shape[0:2])) + 1  # 必须为整数
         # if thickness > 1:
         #     thickness = 1  # 可强制为1
-        cv2.rectangle(img, pt1, pt2, color, thickness)  #画框,thickness线粗细
+        cv2.rectangle(img, pt1, pt2, color, thickness)  # 画框,thickness线粗细
         # 获取字体的宽x-高y，实际上此高y应该乘1.5 才是字体的真实高度(bq是占上中、中下3个格)
         t_size = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, fontScale=thickness / 3, thickness=thickness)[0]
         # 按照2种方式显示，默认是在框上面显示，当上框仅挨着上边界时，采用框内显示；右边界不管
-        c1 = (pt1[0], pt1[1]-int(t_size[1]*1.5)) if pt1[1]-int(t_size[1]*1.5) >= 0 else (pt1[0], pt1[1])
-        c2 = (pt1[0]+t_size[0], pt1[1]) if pt1[1]-int(t_size[1]*1.5) >= 0 else (pt1[0]+t_size[0], pt1[1]+int(t_size[1]*1.5))
 
+        c1 = (pt1[0], pt1[1] - int(t_size[1] * 1.5)) if pt1[1] - int(t_size[1] * 1.5) >= 0 else (pt1[0], pt1[1])
+        c2 = (pt1[0] + t_size[0], pt1[1]) if pt1[1] - int(t_size[1] * 1.5) >= 0 else (
+        pt1[0] + t_size[0], pt1[1] + int(t_size[1] * 1.5))
+        # 判断c1 xy坐标是否都大于0
+        if c1[0] < 0 or c1[1] < 0:
+            x_t = c1[0] if c1[0] >= 0 else 0
+            y_t = c1[1] if c1[1] >= 0 else 0
+            c1 = (x_t, y_t)
         # 字体框内背景填充与框颜色一致
         cv2.rectangle(img, c1, c2, color, -1)  # 当thickness=-1时为填充
         # 绘制文本，文本是在下1/3位置开始
-        text_pos = (c1[0], c1[1]+t_size[1])
+        text_pos = (c1[0], c1[1] + t_size[1])
         cv2.putText(img, label, text_pos, cv2.FONT_HERSHEY_SIMPLEX, thickness / 3, [225, 255, 255], thickness=thickness, lineType=cv2.LINE_AA)
 
 
@@ -126,7 +135,8 @@ if __name__ == '__main__':
     detect = Detect(metaPath=r'./cfg/fire.data',
                     configPath=r'./cfg/yolov4-fire.cfg',
                     weightPath=r'./backup_fire/yolov4-fire_best.weights',
-                    namesPath=r'./cfg/fire.names')
+                    namesPath=r'./cfg/fire.names',
+                    gpu_id=2)
 
     # image = cv2.imread(r'/home/Datasets/image/000000.jpg', -1)
     # image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)
