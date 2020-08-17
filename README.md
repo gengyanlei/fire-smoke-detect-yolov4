@@ -79,6 +79,7 @@
 * train_data4: https://github.com/cair/Fire-Detection-Image-Dataset/blob/master/Fire%20images.rar
 * 
 * fire-demo-dataset: http://signal.ee.bilkent.edu.tr/VisiFire/Demo/SampleClips.html
+* google云盘下载链接由qq群中小伙伴提供
 
 ## Reputation:
 * This data set contains 2 parts:
