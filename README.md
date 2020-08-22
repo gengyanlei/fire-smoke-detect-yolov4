@@ -3,6 +3,10 @@
 * author is leilei(CSU)
 * fire-detection qq群: 980489677
 
+## Add important information
+* Open source again smoke-fire detection data 10827 sheets (including 2059 labels);If you want, please contact me after star！
+* 再次开源烟雾-火灾检测数据10827张(含2059个标注)；如果你想要，请star后再联系我给你！
+
 ## Some details
 * [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
 * latest-fire-dataset (with xml annotations) download: [BaiDuYunPan](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r) [GoogleDrive](https://drive.google.com/file/d/1F2YcbqLeL5XqxDHBZOr9PGrAKMhXOEI7/view?usp=sharing)
