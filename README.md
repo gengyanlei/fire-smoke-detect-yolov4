@@ -24,6 +24,10 @@
         
         --label_name: fire
     ```
+* Unzip **.tar file command
+    ```
+    tar -xzvf ***.tar
+    ```
 * If you want to convert VOC to YOLO format:
     ```
     Call darknet-yolov4's scripts voc_label.py
