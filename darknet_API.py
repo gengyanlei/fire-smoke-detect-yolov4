@@ -1,5 +1,6 @@
 '''
 注释：
+    此版本基于2020-06月darknet.py，最新darknet.py修改较多，可能需要重新测试
     darknet python调用接口，参考darknet.py即可！
 '''
 import os
