@@ -10,7 +10,7 @@
 
 ## Some details
 * [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
-* latest-fire-dataset (with xml annotations) download: [BaiDuYunPan](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r) [GoogleDrive](https://drive.google.com/file/d/1F2YcbqLeL5XqxDHBZOr9PGrAKMhXOEI7/view?usp=sharing)
+* latest-fire-dataset (with xml annotations 2059) download: [BaiDuYunPan](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r) [GoogleDrive](https://drive.google.com/file/d/1F2YcbqLeL5XqxDHBZOr9PGrAKMhXOEI7/view?usp=sharing)
 * fire-yolov4-weights download: [BaiDuYunPan](https://pan.baidu.com/s/14g0SkV5vR8OhnDOCTW6r9A) 提取码->(w3ip)
 * yolov4.conv.137 -> GoogleDriver download: [yolov4.conv.137 ](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)
 
@@ -55,6 +55,7 @@
     image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)
     draw_img = detect.predict_image(image, save_path='./pred.jpg')
     ```
+4. **The latest version of darknet has modified darknet.py and can directly perform image detection based on it.**
 * Note: 
     * This project should be placed in the ./darknet folder;
     * Fire generally coexists with smoke, but we only marked fire;
