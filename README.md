@@ -7,6 +7,7 @@
 * Open source again smoke-fire detection data 10827 sheets (including 2059 labels):
 * 再次开源烟雾-火灾检测数据10827张(含2059个标注):
 * [BaiDuYunPan_Download](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) 提取码->(hhwq)
+* 仍然需要下载 latest-fire-dataset 合并
 
 ## Some details
 * [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
@@ -27,6 +28,8 @@
 * Unzip **.tar file command
     ```
     tar -xzvf ***.tar
+    or
+    7zip
     ```
 * If you want to convert VOC to YOLO format:
     ```
