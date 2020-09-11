@@ -97,6 +97,7 @@
 * This data set contains 2 parts:
 * (1) Images crawled by myself, marked by myself
 * (2) The data that others open source, some have annotations, some have no annotations (I re-annotate it)
+* **本数据仅学术探索！！！**
 
 ## other
 * [building-segmentation-dataset](https://github.com/gengyanlei/build_segmentation_dataset)
