@@ -1,4 +1,4 @@
-# fire-detect-yolov4 and fire-detect-dataset
+# fire-detect-yolov4-5 and fire-detect-dataset
 
 * author is leilei(CSU)
 * fire-detection qq群: 980489677
