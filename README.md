@@ -27,9 +27,10 @@
     ```
 * Unzip **.tar file command
     ```
-    tar -xzvf ***.tar
-    or
-    7zip
+    请不要再问我如何解压！
+    tar -xzvf ***.tar  (win or linux: Git Bash)
+    or 
+    7zip (win: 7zip)
     ```
 * If you want to convert VOC to YOLO format:
     ```
