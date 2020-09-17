@@ -30,7 +30,7 @@
     请不要再问我如何解压！
     tar -xzvf ***.tar  (win or linux: Git Bash)
     or 
-    7zip (win: 7zip)
+    7zip (win: 7zip; 360zip need 2 time unzip)
     ```
 * If you want to convert VOC to YOLO format:
     ```
