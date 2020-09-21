@@ -2,6 +2,7 @@
 
 * author is leilei(CSU)
 * fire-detection qq群: 980489677
+* 如果此项目对您有所帮助，请给个star，您的star是对我的鼓励！
 
 ## Add important information
 * Open source again smoke-fire detection data 10827 sheets (including 2059 labels):
