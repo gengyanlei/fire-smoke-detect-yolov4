@@ -9,6 +9,8 @@
 * 再次开源烟雾-火灾检测数据10827张(含2059个标注):
 * [BaiDuYunPan_Download](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) 提取码->(hhwq)
 * 仍然需要下载 latest-fire-dataset 合并
+* Darknet has updated part of the code, so my code is not suitable for the latest darknet, please refer to the current [darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py) file.
+* Darknet已更新了部分代码，因此我的代码不适用于最新的Darknet，请参考当前的[darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py)文件。
 
 ## Some details
 * [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
