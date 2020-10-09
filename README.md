@@ -4,19 +4,21 @@
 * fire-detection qq群: 980489677
 * 如果此项目对您有所帮助，请给个star，您的star是对我的鼓励！
 
-## Add important information
-* Open source again smoke-fire detection data 10827 sheets (including 2059 labels):
-* 再次开源烟雾-火灾检测数据10827张(含2059个标注):
-* [BaiDuYunPan_Download](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) 提取码->(hhwq)
-* 仍然需要下载 latest-fire-dataset 合并
-* Darknet has updated part of the code, so my code is not suitable for the latest darknet, please refer to the current [darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py) file.
-* Darknet已更新了部分代码，因此我的代码不适用于最新的Darknet，请参考当前的[darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py)文件。
+## new open-source dataset
+* 工作服反光衣数据集: 可用于施工区域or危险区域等指定区域检测: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
 
 ## Some details
-* [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
+* En: Open source again smoke-fire detection data 10827 sheets (including 2059 labels):
+* Ch: 再次开源烟雾-火灾检测数据10827张(含2059个标注),仍然需要下载 latest-fire-dataset合并:
+---
+* [BaiDuYunPan_Download](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) 提取码->(hhwq)
 * latest-fire-dataset (with xml annotations 2059) download: [BaiDuYunPan](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r) [GoogleDrive](https://drive.google.com/file/d/1F2YcbqLeL5XqxDHBZOr9PGrAKMhXOEI7/view?usp=sharing)
+---
 * fire-yolov4-weights download: [BaiDuYunPan](https://pan.baidu.com/s/14g0SkV5vR8OhnDOCTW6r9A) 提取码->(w3ip)
+* [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
 * yolov4.conv.137 -> GoogleDriver download: [yolov4.conv.137 ](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)
+* Darknet has updated part of the code, so my code is not suitable for the latest darknet, please refer to the current [darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py) file.
+* Darknet已更新了部分代码，因此我的代码不适用于最新的Darknet，请参考当前的[darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py)文件。
 
 ## How to use dataset?
 * We annotate the fire-detection-dataset as Pascal VOC format:
@@ -93,7 +95,6 @@
 * train_data2: https://bitbucket.org/gbdi/bowfire-dataset/downloads/
 * train_data3: https://github.com/OlafenwaMoses/FireNET/releases/download/v1.0/fire-dataset.zip
 * train_data4: https://github.com/cair/Fire-Detection-Image-Dataset/blob/master/Fire%20images.rar
-* 
 * fire-demo-dataset: http://signal.ee.bilkent.edu.tr/VisiFire/Demo/SampleClips.html
 * google云盘下载链接由qq群中小伙伴提供
 
