@@ -5,7 +5,7 @@
 * 如果此项目对您有所帮助，请给个star，您的star是对我的鼓励！
 
 ## new open-source dataset
-* 工作服反光衣数据集: 可用于施工区域or危险区域等指定区域检测: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
+* 工作服反光衣-安全帽数据集: 可用于施工区域or危险区域等指定区域检测: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
 
 ## Some details
 * En: Open source again smoke-fire detection data 10827 sheets (including 2059 labels):
