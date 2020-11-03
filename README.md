@@ -47,8 +47,7 @@
     ```
 * Crawl fire-smoke images
     ```
-    * crawl baidu images: test_baidu.py
-    * crawl google images: test_google.py
+    * crawl baidu images: crawl_baidu.py
     ```
 
 ## How to use this code (test)?
