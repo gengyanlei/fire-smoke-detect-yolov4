@@ -58,6 +58,7 @@
 
 ### yolov4 测试-训练代码使用说明
 * yolov4测试：
+
     0. 首先按照yolov4，本人已经将自己编译好的darknet上传，因此你不需要二次编译；
     1. 下载百度云盘中的yolov4火灾检测模型，将其放到backup_fire文件夹；
     2. 调用darknet_API.py函数:
@@ -70,6 +71,7 @@
         draw_img = detect.predict_image(image, save_path='./pred.jpg')
         ```
 * yolov4 训练：
+
     0. 将VOC格式转成yolo格式
     1. 修改cfg等文件的配置参数
     2. 执行如下命令:
@@ -78,6 +80,7 @@
         ```
 ### yolov5 测试代码使用说明
 * yolov5测试：
+
     0. 切换到yolov5，终端执行如下命令:
     ```
     python detect.py --source ***/aaa.jpg --weights ./best.pt
