@@ -59,7 +59,7 @@
 ### yolov4 测试-训练代码使用说明
 * yolov4测试：
 
-    1. 首先按照yolov4，本人已经将自己编译好的darknet上传，因此你不需要二次编译；
+    1. 首先按照yolov4，本人已经将自己编译好的darknet上传，因此你不需要二次编译；将yolov4中的libdarknet.zip解压出来libdarknet.so！
     2. 下载百度云盘中的yolov4火灾检测模型，将其放到backup_fire文件夹；
     3. 调用darknet_API.py函数:
         ```

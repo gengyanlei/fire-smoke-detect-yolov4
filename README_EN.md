@@ -59,7 +59,7 @@
 ### how to use test-train's code in yolov4
 * yolov4's test：
 
-    1. First of all, according to yolov4, I have uploaded the darknet compiled by myself, so you do not need to compile twice;
+    1. First of all, according to yolov4, I have uploaded the darknet compiled by myself, so you do not need to compile twice; **unzip yolov4's libdarknet.zip -> libdarknet.so！**
     2. Download the yolov4 fire detection model in Baidu cloud disk and put it in the backup_fire folder;
     3. Call the darknet_API.py function;
         ```
