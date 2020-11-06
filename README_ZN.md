@@ -59,9 +59,9 @@
 ### yolov4 测试-训练代码使用说明
 * yolov4测试：
 
-    0. 首先按照yolov4，本人已经将自己编译好的darknet上传，因此你不需要二次编译；
-    1. 下载百度云盘中的yolov4火灾检测模型，将其放到backup_fire文件夹；
-    2. 调用darknet_API.py函数:
+    1. 首先按照yolov4，本人已经将自己编译好的darknet上传，因此你不需要二次编译；
+    2. 下载百度云盘中的yolov4火灾检测模型，将其放到backup_fire文件夹；
+    3. 调用darknet_API.py函数:
         ```
         from darknet_API import Detect
         detect = Detect(metaPath=r'./cfg/fire.data', configPath=r'./cfg/yolov4-fire.cfg',\
@@ -72,16 +72,16 @@
         ```
 * yolov4 训练：
 
-    0. 将VOC格式转成yolo格式
-    1. 修改cfg等文件的配置参数
-    2. 执行如下命令:
+    1. 将VOC格式转成yolo格式
+    2. 修改cfg等文件的配置参数
+    3. 执行如下命令:
         ```
         ./darknet detector train cfg/fire.data cfg/yolov4-fire.cfg yolov4.conv.137 -gpus 0 -map -dont_show
         ```
 ### yolov5 测试代码使用说明
 * yolov5测试：
 
-    0. 切换到yolov5，终端执行如下命令:
+    1. 切换到yolov5，终端执行如下命令:
     ```
     python detect.py --source ***/aaa.jpg --weights ./best.pt
     ```

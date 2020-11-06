@@ -59,9 +59,9 @@
 ### how to use test-train's code in yolov4
 * yolov4's test：
 
-    0. First of all, according to yolov4, I have uploaded the darknet compiled by myself, so you do not need to compile twice;
-    1. Download the yolov4 fire detection model in Baidu cloud disk and put it in the backup_fire folder;
-    2. Call the darknet_API.py function;
+    1. First of all, according to yolov4, I have uploaded the darknet compiled by myself, so you do not need to compile twice;
+    2. Download the yolov4 fire detection model in Baidu cloud disk and put it in the backup_fire folder;
+    3. Call the darknet_API.py function;
         ```
         from darknet_API import Detect
         detect = Detect(metaPath=r'./cfg/fire.data', configPath=r'./cfg/yolov4-fire.cfg',\
@@ -72,16 +72,16 @@
         ```
 * yolov4's train：
 
-    0. Convert VOC format data to YOLO format data
-    1. Configure file information such as cfg
-    2. Call the darknet command:
+    1. Convert VOC format data to YOLO format data
+    2. Configure file information such as cfg
+    3. Call the darknet command:
         ```
         ./darknet detector train cfg/fire.data cfg/yolov4-fire.cfg yolov4.conv.137 -gpus 0 -map -dont_show
         ```
 ### how to use test's code in yolov5
 * yolov5's test：
 
-    0. cd yolov5, and excuting an order:
+    1. cd yolov5, and excuting an order:
     ```
     python detect.py --source ***/aaa.jpg --weights ./best.pt
     ```
