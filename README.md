@@ -1,7 +1,7 @@
 # fire-smoke-detect-yolov4-5 and fire-smoke-detect-dataset
 
 * author is leilei
-* fire-detection qq群: 980489677
+* fire-smoke-detection qq群: 980489677
 * 如果此项目对您有所帮助，请给个star，您的star是对我的鼓励！
 
 ## new open-source dataset
