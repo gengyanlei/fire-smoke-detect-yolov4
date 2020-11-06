@@ -4,11 +4,12 @@
 * 作者： leilei
 * 烟-火检测 qq群: 980489677
 * 如果此项目对您有所帮助，请给个star，您的star是对我的鼓励！
+* 注意：yolov4仅支持火灾检测，yolov5s支持烟雾-火灾2类检测！
 
 ### 新开源的数据集项目
 * 工作服反光衣-安全帽数据集: 可用于施工区域or危险区域等指定区域检测: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
 
-### 使用细节
+### 数据集下载细节
 * [烟火(10827张图像,无标签)-百度云盘下载链接](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) 提取码->(hhwq)
 * [烟火(2059张图像,含标签)-百度云盘下载链接](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r) [GoogleDrive](https://drive.google.com/file/d/1F2YcbqLeL5XqxDHBZOr9PGrAKMhXOEI7/view?usp=sharing)
 ---
@@ -60,13 +61,19 @@
         image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)
         draw_img = detect.predict_image(image, save_path='./pred.jpg')
         ```
-* yolov4 训练
+* yolov4 训练：
     0. 将VOC格式转成yolo格式
     1. 修改cfg等文件的配置参数
     2. 执行如下命令:
         ```
         ./darknet detector train cfg/fire.data cfg/yolov4-fire.cfg yolov4.conv.137 -gpus 0 -map -dont_show
         ```
+### yolov5 测试代码使用说明
+* yolov5测试：
+    0. 切换到yolov5，终端执行如下命令:
+    ```
+    python detect.py --source ***/aaa.jpg --weights ./best.pt
+    ```
 
 ### 可视化
 * ./result: 火灾预测
