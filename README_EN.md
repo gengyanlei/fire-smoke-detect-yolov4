@@ -46,6 +46,13 @@
     ```
     * crawl baidu images: crawl_baidu.py
     ```
+* **Data pre-labeling** ############### Key ###################
+    ```
+    (1)Download 10827 smoke-fire detection data set
+    (2)Use my open source yolov5 fire-smoke detection model to pre-label unlabeled images
+    (3)Manual correction of fire-smoke detection pre-labeling, retraining yolov4, yolov5
+    (4)Come on！！！
+    ```
 
 ### how to use test-train's code in yolov4
 * yolov4's test：

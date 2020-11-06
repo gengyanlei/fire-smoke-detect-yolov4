@@ -4,7 +4,7 @@
 * author is leilei
 * fire-smoke-detection qq群: 980489677
 * [**README_ZN 中文版说明**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_ZN.md)
-* [**README_EN 英文版说明**]()
+* [**README_EN 英文版说明**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_EN.md)
 
 ### Other
 * [building-segmentation-dataset 遥感影像建筑语义分割](https://github.com/gengyanlei/build_segmentation_dataset)
