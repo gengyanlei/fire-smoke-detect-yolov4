@@ -14,6 +14,7 @@
 * [烟火(2059张图像,含标签)-百度云盘下载链接](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r) [GoogleDrive](https://drive.google.com/file/d/1F2YcbqLeL5XqxDHBZOr9PGrAKMhXOEI7/view?usp=sharing)
 ---
 * [yolov4火灾检测模型-百度云盘下载链接](https://pan.baidu.com/s/14g0SkV5vR8OhnDOCTW6r9A) 提取码->(w3ip)
+* yolov5烟雾火灾检测模型 直接在yolov5文件夹中！
 * [darknet-yolov4官方github安装教程](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
 * [yolov4.conv.137](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)
 * 如果想使用最新版本darknet预测函数，请参考[darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py)文件。

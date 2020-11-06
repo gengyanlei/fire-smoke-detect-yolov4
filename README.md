@@ -7,5 +7,5 @@
 * [**README_EN 英文版说明**]()
 
 ### Other
-* [building-segmentation-dataset](https://github.com/gengyanlei/build_segmentation_dataset)
-* [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
+* [building-segmentation-dataset 遥感影像建筑语义分割](https://github.com/gengyanlei/build_segmentation_dataset)
+* [reflective-clothes-detect-dataset 安全帽反光衣检测](https://github.com/gengyanlei/reflective-clothes-detect)
