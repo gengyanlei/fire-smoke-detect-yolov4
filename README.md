@@ -3,6 +3,7 @@
 
 * author is leilei
 * fire-smoke-detection qq群: 980489677
+* 数据集下载链接详见说明-Please refer to the instructions for the data set download link!
 * [**README_ZN 中文版说明**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_ZN.md)
 * [**README_EN English Description**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_EN.md)
 

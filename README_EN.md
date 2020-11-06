@@ -3,6 +3,8 @@
 
 * author is leilei
 * fire-smoke-detection qq-group: 980489677
+* If this project is helpful to you, please give a star, your star is an encouragement to me!
+* Note: yolov4 only supports fire detection, yolov5s supports smoke-fire type 2 detection!
 
 ### new open-source dataset
 * Workwear Reflective Clothing-Safety Helmet Data Set: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
