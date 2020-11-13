@@ -6,6 +6,14 @@
 * 如果此项目对您有所帮助，请给个star，您的star是对我的鼓励！
 * 注意：yolov4仅支持火灾检测，yolov5s支持烟雾-火灾2类检测！
 
+### 安装环境
+```
+    python: 3.6+
+    ubuntu16.04 or 18.04
+    darknet 
+    pytorch 1.6+
+```
+
 ### 新开源的数据集项目
 * 工作服反光衣-安全帽数据集: 可用于施工区域or危险区域等指定区域检测: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
 

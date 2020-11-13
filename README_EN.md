@@ -6,6 +6,14 @@
 * If this project is helpful to you, please give a star, your star is an encouragement to me!
 * Note: yolov4 only supports fire detection, yolov5s supports smoke-fire type 2 detection!
 
+### installation environment
+```
+    python: 3.6+
+    ubuntu16.04 or 18.04
+    darknet 
+    pytorch 1.6+
+```
+
 ### new open-source dataset
 * Workwear Reflective Clothing-Safety Helmet Data Set: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
 * It can be used for detection of designated areas such as construction areas or dangerous areas.
