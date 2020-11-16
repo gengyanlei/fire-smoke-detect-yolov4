@@ -10,8 +10,8 @@
 ```
     python: 3.6+
     ubuntu16.04 or 18.04
-    darknet 
-    pytorch 1.6+
+    darknet (cuda10.0 docker)
+    pytorch 1.6+ (cuda10.2 docker)
 ```
 
 ### new open-source dataset
