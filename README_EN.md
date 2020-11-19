@@ -26,7 +26,7 @@
 * yolov5 fire-smoke-detect's weight is in yolov5 folder!
 * [darknet-yolov4-install-tutorial](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
 * [yolov4.conv.137](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)
-* If you want to use the latest version of darknet prediction function, please refer to[darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py)file.
+* If you want to use the latest version of darknet prediction function, please refer to [latest_darknet_API.py](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/latest_darknet_API.py).
 
 ### How to use dataset?
 * We annotate the fire-detection-dataset as Pascal VOC format:

@@ -25,7 +25,11 @@
 * yolov5烟雾火灾检测模型 直接在yolov5文件夹中！
 * [darknet-yolov4官方github安装教程](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make)
 * [yolov4.conv.137](https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT)
-* 如果想使用最新版本darknet预测函数，请参考[darknet_images.py](https://github.com/AlexeyAB/darknet/blob/master/darknet_images.py)文件。
+* 如果想使用最新版本darknet预测函数，请参考[latest_darknet_API.py](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/latest_darknet_API.py)代码。
+    ```
+    由于官方darknet预测图像，返回的画框图像是608*608，而非原始图像，坐标框也是如此，
+    因此，本人参考官方代码，修改成图像-视频预测在一起的代码，并且是原始图像！
+    ```
 
 ### 数据集详细情况说明
 * 烟火检测数据集(按照Pascal VOC格式排列):
