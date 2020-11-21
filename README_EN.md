@@ -20,7 +20,7 @@
 
 ### dataset download details
 * [smoke-fire (10827's images,no labels)-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) Code->(hhwq)
-* [fire-smoke (2059's images,include labels)-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) Code->(3q4r) [GoogleDrive](https://drive.google.com/file/d/1F2YcbqLeL5XqxDHBZOr9PGrAKMhXOEI7/view?usp=sharing)
+* [fire-smoke (2059's images,include labels)-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) Code->(3q4r)
 ---
 * [yolov4 fire-detect's weight-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/14g0SkV5vR8OhnDOCTW6r9A) Code->(w3ip)
 * yolov5 fire-smoke-detect's weight is in yolov5 folder!
@@ -85,6 +85,8 @@
     3. Call the darknet command:
         ```
         ./darknet detector train cfg/fire.data cfg/yolov4-fire.cfg yolov4.conv.137 -gpus 0 -map -dont_show
+        If there is insufficient gpu memory, you can modify the batch size and cancel the random multi-scale. 
+        By default, random=1, cancel will be random=0
         ```
 ### how to use test's code in yolov5
 * yolov5's test：

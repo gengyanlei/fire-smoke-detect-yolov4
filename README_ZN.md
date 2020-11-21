@@ -19,7 +19,7 @@
 
 ### 数据集下载细节
 * [烟火(10827张图像,无标签)-百度云盘下载链接](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) 提取码->(hhwq)
-* [烟火(2059张图像,含标签)-百度云盘下载链接](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r) [GoogleDrive](https://drive.google.com/file/d/1F2YcbqLeL5XqxDHBZOr9PGrAKMhXOEI7/view?usp=sharing)
+* [烟火(2059张图像,含标签)-百度云盘下载链接](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r)
 ---
 * [yolov4火灾检测模型-百度云盘下载链接](https://pan.baidu.com/s/14g0SkV5vR8OhnDOCTW6r9A) 提取码->(w3ip)
 * yolov5烟雾火灾检测模型 直接在yolov5文件夹中！
@@ -89,6 +89,7 @@
     3. 执行如下命令:
         ```
         ./darknet detector train cfg/fire.data cfg/yolov4-fire.cfg yolov4.conv.137 -gpus 0 -map -dont_show
+        若出现显存不足，可修改batch的大小和取消random多尺度，默认情况下random=1，取消将random=0
         ```
 ### yolov5 测试代码使用说明
 * yolov5测试：
