@@ -78,6 +78,10 @@
         image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)
         draw_img = detect.predict_image(image, save_path='./pred.jpg')
         ```
+* yolov4 to onnx：
+    
+    1. yolov4 to onnx refer ./yolov4/yolov4_to_onnx/yolov4_to_onnx.py
+    2. onnx to trt engine refer ./yolov4/yolov4_to_onnx/onnx_to_trt7.py
 * yolov4's train：
 
     1. Convert VOC format data to YOLO format data

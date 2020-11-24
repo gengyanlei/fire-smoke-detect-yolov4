@@ -82,6 +82,10 @@
         image = cv2.imread(r'/home/Datasets/20200714085948.jpg', -1)
         draw_img = detect.predict_image(image, save_path='./pred.jpg')
         ```
+* yolov4转onnx：
+    
+    1. yolov4转onnx 参考 ./yolov4/yolov4_to_onnx/yolov4_to_onnx.py
+    2. onnx转trt engine 参数 ./yolov4/yolov4_to_onnx/onnx_to_trt7.py
 * yolov4 训练：
 
     1. 将VOC格式转成yolo格式
