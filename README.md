@@ -1,9 +1,7 @@
-## fire-smoke-detect-yolov4-5 and fire-smoke-detect-dataset
-## 火灾-烟雾 yolov4 yolov5检测数据集
+## fire-smoke-detect-yolov4-v5 and fire-smoke-detect-dataset
 
 * author is leilei
 * fire-smoke-detection qq群: 980489677
-* 数据集下载链接详见说明-Please refer to the instructions for the data set download link!
 * [**README_ZN 中文版说明**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_ZN.md)
 * [**README_EN English Description**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_EN.md)
 
