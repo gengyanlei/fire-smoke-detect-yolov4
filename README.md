@@ -4,6 +4,7 @@
 * fire-smoke-detection qq群: 980489677
 * [**README_ZN 中文版说明**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_ZN.md)
 * [**README_EN English Description**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_EN.md)
+* [**yolov4 tensorrt python inference**](https://github.com/gengyanlei/onnx2tensorRt)
 
 ### fire-smoke-detect-demo
 |![fire-smoke-detect-demo](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/result/result_demo.jpg?raw=true)|
