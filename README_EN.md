@@ -18,6 +18,9 @@
 * Workwear Reflective Clothing-Safety Helmet Data Set: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
 * It can be used for detection of designated areas such as construction areas or dangerous areas.
 
+### Improve and optimize
+* eg：Smoke is further subdivided into white smoke, black smoke, and gray smoke, and fires can also be further refined
+
 ### dataset download details
 * [smoke-fire (10827's images,no labels)-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) Code->(hhwq)
 * [fire-smoke (2059's images,include labels)-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) Code->(3q4r)

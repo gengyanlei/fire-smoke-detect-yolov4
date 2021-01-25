@@ -17,6 +17,9 @@
 ### 新开源的数据集项目
 * 工作服反光衣-安全帽数据集: 可用于施工区域or危险区域等指定区域检测: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
 
+### 改进优化
+* eg：烟雾进一步细分成白烟、黑烟、灰烟，火灾也可进一步细化
+
 ### 数据集下载细节
 * [烟火(10827张图像,无标签)-百度云盘下载链接](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) 提取码->(hhwq)
 * [烟火(2059张图像,含标签)-百度云盘下载链接](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) 提取码->(3q4r)
