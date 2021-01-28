@@ -57,7 +57,7 @@
     ```
 * Crawl fire-smoke images
     ```
-    * crawl baidu images: crawl_baidu.py
+    * crawl baidu-Bing images: crawl_baidu.py or crawl_baidu_bing.py
     ```
 * **Data pre-labeling** ############### Key ###################
     ```
