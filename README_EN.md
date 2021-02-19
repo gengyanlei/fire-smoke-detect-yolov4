@@ -24,6 +24,7 @@
 ### dataset download details
 * [smoke-fire (10827's images,no labels)-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/1GhFKbp6hN26hxJWXIg_W2A) Code->(hhwq)
 * [fire-smoke (2059's images,include labels)-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/1AvCMcmZ7SaAZznmyTO65cg) Code->(3q4r)
+* [fire-smoke (2059's images,include labels)-**GoogleDrive** DownLoadLink](https://drive.google.com/file/d/1ydVpGphAJzVPCkUTcJxJhsnp_baGrZa7/view?usp=sharing)
 ---
 * [yolov4 fire-detect's weight-BaiDuYunPanDownLoadLink](https://pan.baidu.com/s/14g0SkV5vR8OhnDOCTW6r9A) Code->(w3ip)
 * yolov5 fire-smoke-detect's weight is in yolov5 folder!
