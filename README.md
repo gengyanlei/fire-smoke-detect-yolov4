@@ -1,7 +1,8 @@
 ## fire-smoke-detect-yolov4-v5 and fire-smoke-detect-dataset
 
 * author is leilei
-* fire-smoke-detection qq群: 980489677
+* fire-smoke-detection qq群(已加满): 980489677 
+* fire-smoke-detection qq2群: 710514100
 * [**README_ZN 中文版说明**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_ZN.md)
 * [**README_EN English Description**](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/README_EN.md)
 * [**yolov4 tensorrt python inference**](https://github.com/gengyanlei/onnx2tensorRt)

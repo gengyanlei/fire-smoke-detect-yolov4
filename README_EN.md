@@ -2,7 +2,8 @@
 ## fire-smoke-detect and fire-smoke-detect-dataset
 
 * author is leilei
-* fire-smoke-detection qq-group: 980489677
+* fire-smoke-detection qq-group(full): 980489677
+* fire-smoke-detection qq-group2: 710514100
 * If this project is helpful to you, please give a star, your star is an encouragement to me!
 * Note: yolov4 only supports fire detection, yolov5s supports smoke-fire type 2 detection!
 
