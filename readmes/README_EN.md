@@ -2,8 +2,7 @@
 ## fire-smoke-detect and fire-smoke-detect-dataset
 
 * author is leilei
-* fire-smoke-detection qq-group(full): 980489677
-* fire-smoke-detection qq-group2: 710514100
+* fire-smoke-detection qq-group(full): 980489677, qq-group2: 710514100
 * If this project is helpful to you, please give a star, your star is an encouragement to me!
 * Note: yolov4 only supports fire detection, yolov5s supports smoke-fire type 2 detection!
 
@@ -108,12 +107,12 @@
 ### demo
 * ./result: fire-smoke-detect demos
 
-|![fire-smoke-detect-demo](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/result/result_demo.jpg?raw=true)|
+|![fire-smoke-detect-demo](../result/result_demo.jpg)|
 |----|
 
 * ./xml_lab: fire-detection image annotations
 
-|![fire-detect-annotation](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/xml_lab/annotation.jpg)|
+|![fire-detect-annotation](../xml_lab/annotation.jpg)|
 |----|
 
 ### Cite

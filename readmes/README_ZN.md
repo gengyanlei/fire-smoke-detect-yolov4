@@ -2,8 +2,7 @@
 ## 烟火检测-烟火检测数据集
 
 * 作者： leilei
-* 烟-火检测 qq群(已满): 980489677
-* 烟-火检测 qq2群: 710514100
+* 烟-火检测 qq群(已满): 980489677, qq2群: 710514100
 * 如果此项目对您有所帮助，请给个star，您的star是对我的鼓励！
 * 注意：yolov4仅支持火灾检测，yolov5s支持烟雾-火灾2类检测！
 
@@ -16,7 +15,7 @@
 ```
 
 ### 新开源的数据集项目
-* 工作服反光衣-安全帽数据集: 可用于施工区域or危险区域等指定区域检测: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
+* 工作服反光衣-安全帽数据集: [reflective-clothes-detect-dataset](https://github.com/gengyanlei/reflective-clothes-detect)
 
 ### 改进优化
 * eg：烟雾进一步细分成白烟、黑烟、灰烟，火灾也可进一步细化
@@ -111,12 +110,12 @@
 ### 可视化
 * ./result: 火灾预测
 
-|![fire-detect-demo](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/result/result_demo.jpg?raw=true)|
+|![fire-detect-demo](../result/result_demo.jpg)|
 |----|
 
 * ./xml_lab: 火灾标注
 
-|![fire-detect-annotation](https://github.com/gengyanlei/fire-detect-yolov4/blob/master/xml_lab/annotation.jpg)|
+|![fire-detect-annotation](../xml_lab/annotation.jpg)|
 |----|
 
 ### 参考博客-github项目
