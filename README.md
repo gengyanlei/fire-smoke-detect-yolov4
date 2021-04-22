@@ -17,6 +17,6 @@
 ### Other
 * [leilei's blog](https://blog.csdn.net/LEILEI18A/article/details/107334474)
 * [VSCode Remote SSH 安装教程](https://blog.csdn.net/LEILEI18A/article/details/102524181)
-* [segmentation_pytorch](https://github.com/gengyanlei/segmentation_pytorch)
+* [segmentation_pytorch 语义分割](https://github.com/gengyanlei/segmentation_pytorch)
 * [building-segmentation-dataset 遥感影像建筑语义分割](https://github.com/gengyanlei/build_segmentation_dataset)
 * [reflective-clothes-detect-dataset 安全帽反光衣检测](https://github.com/gengyanlei/reflective-clothes-detect)
