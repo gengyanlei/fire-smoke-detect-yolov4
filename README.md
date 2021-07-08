@@ -6,6 +6,7 @@
 * [**README_EN English Description**](./readmes/README_EN.md)
 * [**yolov4 tensorrt python inference**](https://github.com/gengyanlei/onnx2tensorRt)
 
+<!--
 ### Note
 ```
   本人在inspur-浪潮云从事AI，校聘生，6.23日前谈完绩效B(S,A,B,C,D)，本来绩效是按照3月底前计算发放，
@@ -14,6 +15,7 @@
   但是这样的不公平，
   奉劝学弟学妹们不要选择浪潮，除了浪潮信息部分部门，其他的都是。。。
 ```
+-->
 
 ### fire-smoke-detect-demo
 |![fire-smoke-detect-demo](./result/result_demo.jpg)|
