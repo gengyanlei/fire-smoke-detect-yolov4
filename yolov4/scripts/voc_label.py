@@ -54,7 +54,7 @@ def convert_annotation(year, image_id):
 for year, image_set in sets:
     if not os.path.exists(data_root + 'VOC%s/labels/'%(year)):
         os.makedirs(data_root + 'VOC%s/labels/'%(year))
-    image_ids = open(data_root + 'VOC%s/ImageSets/Main/%s.txt'%(year, image_set)).read().strip().split()#有空格的就不行了
+    image_ids = open(data_root + 'VOC%s/ImageSets/Main/%s.txt'%(year, image_set)).read().strip().split('\n')#有空格的就不行了
     list_file = open('%s_%s.txt'%(year, image_set), 'w')
     for image_id in image_ids:
         print(image_id)
