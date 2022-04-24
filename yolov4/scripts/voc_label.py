@@ -54,7 +54,11 @@ def convert_annotation(year, image_id):
 for year, image_set in sets:
     if not os.path.exists(data_root + 'VOC%s/labels/'%(year)):
         os.makedirs(data_root + 'VOC%s/labels/'%(year))
-    image_ids = open(data_root + 'VOC%s/ImageSets/Main/%s.txt'%(year, image_set)).read().strip().split()#有空格的就不行了
+    ''' 由于2059张图片的数据集未处理好，导致几张图片包含空格；可以写个python代码将所有图片和标签都重命名 00000.jpg-00000.txt类似的就可以了。
+        后续再更新数据集，就会处理好。
+    '''
+    #image_ids = open(data_root + 'VOC%s/ImageSets/Main/%s.txt'%(year, image_set)).read().strip().split()#有空格的就不行了
+    image_ids = open(data_root + 'VOC%s/ImageSets/Main/%s.txt'%(year, image_set)).read().strip().split('\n')#可以处理图片名中含空格的了  process "Image's name contains spaces"
     list_file = open('%s_%s.txt'%(year, image_set), 'w')
     for image_id in image_ids:
         print(image_id)
