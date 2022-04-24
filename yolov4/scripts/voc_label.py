@@ -58,7 +58,7 @@ for year, image_set in sets:
         后续再更新数据集，就会处理好。
     '''
     #image_ids = open(data_root + 'VOC%s/ImageSets/Main/%s.txt'%(year, image_set)).read().strip().split()#有空格的就不行了
-    image_ids = open(data_root + 'VOC%s/ImageSets/Main/%s.txt'%(year, image_set)).read().strip().split('\n')#可以处理图片名中含空格的了  process "Image's name contains spaces"
+    image_ids = open(data_root + 'VOC%s/ImageSets/Main/%s.txt'%(year, image_set)).read().strip().split('\n')#可以处理图片名中含空格  process "Image's name contains spaces"
     list_file = open('%s_%s.txt'%(year, image_set), 'w')
     for image_id in image_ids:
         print(image_id)
