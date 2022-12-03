@@ -5,7 +5,7 @@
 * [**README_ZN 中文版说明**](./readmes/README_ZN.md)
 * [**README_EN English Description**](./readmes/README_EN.md)
 * [**yolov4 tensorrt python inference**](https://github.com/gengyanlei/onnx2tensorRt)
-* [**Note: 百度Paddle智慧城市生态使用本人烟火检测数据集**](https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Enterprise_CaseBook/Fire_and_Smoke_Detection#3-%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87)
+* [**Note: 百度Paddle智慧城市生态使用本人烟火检测数据集(PS:明明是我的数据还要感谢别人一下)**](https://github.com/PaddlePaddle/awesome-DeepLearning/tree/master/Paddle_Industry_Practice_Sample_Library/Fire_and_Smoke_Detection)
 
 <!--
 ### Note
